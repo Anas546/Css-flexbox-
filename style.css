@@ -1,0 +1,34 @@
+.parent{
+width: 65em;
+height: 65em;
+display: flex;
+/* color: #fff; */
+border: 3px solid red;
+/* position: relative; */
+}
+
+.child3 img{
+    width: 10em;
+    height: 10em;
+    position: fixed;
+    top: 37px;
+}
+
+.child1{
+    background-color: rgb(245, 179, 93);
+    color: blue;
+    align-self: flex-end;
+    border: 2px solid rgb(72, 70, 88);
+}
+
+.child2{
+    background-color: rgb(252, 129, 231);
+    border: 2px solid rgb(72, 70, 88);
+    color: blue;
+    align-self: center;
+}.child3{
+    background-color: rgb(144, 223, 243);
+    color: blue;
+    border: 2px solid rgb(72, 70, 88);
+    align-self: baseline;
+}
